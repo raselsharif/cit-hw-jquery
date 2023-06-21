@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 550px;
+    margin: 0 auto;
+}
+.hide_show_wrapper{
+    text-align: center;
+}
+h1{
+    margin: 10px 0 10px 0;
+    background-color: rgb(110, 167, 218);
+    padding: 10px;
+}
+button {
+    padding: 8px;
+    background: #3982E4;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover{
+    opacity: 0.7;
+}
+.hide_one, .fade, .slide, .toRight{
+    width: 500px;
+    height: 250px;
+    background: red;
+}
+.animation{
+    position: relative;
+    height: 400px;
+}
+.toRight{
+    position: absolute;
+}
+.queueOne{
+    height: 100px;
+    width: 100px;
+    background: #3982E4;
+    position: absolute;
+}
+.queueFontDisplay{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    background: tomato;
+}
+.stop{
+    width: 500px;
+    height: 250px;
+    background: thistle;
+}
+
+#panel, #flip {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+  .slideCallBack{
+    height: 250px;
+    width: 500px;
+    background: greenyellow;
+  }
+  .chaining{
+    height: 250px;
+    width: 500px;
+    background: bisque;
+  }
